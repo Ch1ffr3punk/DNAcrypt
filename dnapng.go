@@ -12,10 +12,10 @@ import (
 )
 
 var dnaGrayscaleMap = map[rune]uint8{
-	'A': 0,   // Black
-	'T': 85,  // Dark Gray
-	'C': 170, // Light Gray
-	'G': 255, // White
+	'A': 0,
+	'T': 64,
+	'C': 128,
+	'G': 192,
 }
 
 type Config struct {
