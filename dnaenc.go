@@ -74,7 +74,7 @@ func decodeDNAToBytes(input io.Reader, output io.Writer) error {
 	var currentByte byte
 	bitsCollected := 0
 
-	var err error // Declare err once here
+	var err error
 
 	for {
 		var dnaBaseByte byte
